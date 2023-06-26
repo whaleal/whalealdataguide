@@ -1,7 +1,14 @@
 # Summary
 
 * [Whaleal-data](README.md)
-  * [Whaleal-data安装部署](./安装部署/Whaleal-data安装部署.md)
+  * 安装部署
+    * [安装要求](./安装部署/安装要求.md)
+    * [JDK安装部署](./安装部署/JDK安装部署.md)
+    * [MYSQL安装部署](./安装部署/MYSQL安装部署.md)
+    * [Nginx安装部署](./安装部署/Nginx安装部署.md)
+    * [Redis安装部署](./安装部署/Redis安装部署.md)
+    * [Zookeeper安装部署](./安装部署/Zookeeper安装部署.md)
+    * [Whaleal-data安装部署](./安装部署/Whaleal-data安装部署.md)
   * Whaleal-data使用手册
     * 登录页面
       * [用户首次登录](./使用手册/登录页面/用户首次登录.md)

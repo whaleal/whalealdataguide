@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Whaleal-data安装部署 · Whaleal data</title>
+        <title>data安装部署 · Whaleal data</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -62,7 +62,7 @@
 
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="Zookeeper安装部署.html" />
     
 
     </head>
@@ -105,16 +105,113 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.1.1" data-path="Whaleal-data安装部署.html">
+        <li class="chapter " data-level="1.1.1" >
             
-                <a href="Whaleal-data安装部署.html">
+                <span>
             
                     
-                    Whaleal-data安装部署
+                    安装部署
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="安装要求.html">
+            
+                <a href="安装要求.html">
+            
+                    
+                    安装要求
             
                 </a>
             
 
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="JDK安装部署.html">
+            
+                <a href="JDK安装部署.html">
+            
+                    
+                    JDK安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" data-path="MYSQL安装部署.html">
+            
+                <a href="MYSQL安装部署.html">
+            
+                    
+                    MYSQL安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4" data-path="Nginx安装部署.html">
+            
+                <a href="Nginx安装部署.html">
+            
+                    
+                    Nginx安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5" data-path="Redis安装部署.html">
+            
+                <a href="Redis安装部署.html">
+            
+                    
+                    Redis安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.6" data-path="Zookeeper安装部署.html">
+            
+                <a href="Zookeeper安装部署.html">
+            
+                    
+                    Zookeeper安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.1.7" data-path="Whaleal-data安装部署.html">
+            
+                <a href="Whaleal-data安装部署.html">
+            
+                    
+                    data安装部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -915,7 +1012,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Whaleal-data安装部署</a>
+        <a href=".." >data安装部署</a>
     </h1>
 </div>
 
@@ -931,30 +1028,93 @@
                                 <section class="normal markdown-section">
                                 
                                 <h2 id="whaleal-data&#x5B89;&#x88C5;&#x90E8;&#x7F72;">Whaleal-data&#x5B89;&#x88C5;&#x90E8;&#x7F72;</h2>
-<h3 id="&#x5B89;&#x88C5;&#x8981;&#x6C42;">&#x5B89;&#x88C5;&#x8981;&#x6C42;</h3>
-<h4 id="&#x786C;&#x4EF6;&#x8981;&#x6C42;">&#x786C;&#x4EF6;&#x8981;&#x6C42;</h4>
-<pre><code>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;Windows 10 &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3001;Linux &#x53D1;&#x884C;&#x7248;&#xFF08;&#x5982;Ubuntu&#x3001;CentOS&#xFF09;&#x3001;MacOS&#x3002;
-
-&#x5904;&#x7406;&#x5668;&#xFF1A;Intel Core i5 &#x6216;&#x66F4;&#x9AD8;&#x7EA7;&#x522B;&#x7684;&#x5904;&#x7406;&#x5668;&#x3002;
-
-&#x5185;&#x5B58;&#xFF1A;&#x81F3;&#x5C11; 8GB RAM&#x3002;
-
-&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#xFF1A;&#x81F3;&#x5C11; 100GB &#x7684;&#x53EF;&#x7528;&#x78C1;&#x76D8;&#x7A7A;&#x95F4;&#x3002;
-
-&#x7F51;&#x7EDC;&#x9002;&#x914D;&#x5668;&#xFF1A;&#x652F;&#x6301;&#x6709;&#x7EBF;&#x6216;&#x65E0;&#x7EBF;&#x8FDE;&#x63A5;&#x7684;&#x7F51;&#x7EDC;&#x9002;&#x914D;&#x5668;&#x3002;
-</code></pre><h4 id="&#x7F51;&#x7EDC;&#x8981;&#x6C42;">&#x7F51;&#x7EDC;&#x8981;&#x6C42;</h4>
-<h5 id="&#x7F51;&#x7EDC;&#x8BBF;&#x95EE;&#x8981;&#x6C42;">&#x7F51;&#x7EDC;&#x8BBF;&#x95EE;&#x8981;&#x6C42;</h5>
-<pre><code>&#x6839;&#x636E;&#x81EA;&#x8EAB;&#x9700;&#x6C42;&#x914D;&#x7F6E;&#x3002;
-</code></pre><h5 id="&#x7AEF;&#x53E3;&#x8981;&#x6C42;">&#x7AEF;&#x53E3;&#x8981;&#x6C42;</h5>
-<pre><code>&#x9700;&#x8981;&#x5F00;&#x653E;&#x6307;&#x5B9A;&#x7684;&#x7AEF;&#x53E3;&#xFF08;&#x5982; 80 &#x7AEF;&#x53E3;&#x7528;&#x4E8E; HTTP &#x901A;&#x4FE1;&#xFF0C;&#x7A0B;&#x5E8F;&#x542F;&#x52A8;&#x6240;&#x7528;&#x7AEF;&#x53E3;&#xFF09;&#x3002;
-</code></pre><h4 id="&#x8F6F;&#x4EF6;&#x8981;&#x6C42;">&#x8F6F;&#x4EF6;&#x8981;&#x6C42;</h4>
-<h5 id="&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8981;&#x6C42;">&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8981;&#x6C42;</h5>
-<pre><code>&#x652F;&#x6301; Windows Server 2016 &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;
-</code></pre><h5 id="&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;">&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;</h5>
-<pre><code>Google Chrome &#x7248;&#x672C; 80 &#x6216;&#x66F4;&#x9AD8;&#x3001;Mozilla Firefox &#x7248;&#x672C; 75 &#x6216;&#x66F4;&#x9AD8;&#x3002;
-</code></pre><h3 id="&#x670D;&#x52A1;&#x5668;&#x9AD8;&#x53EF;&#x7528;&#x90E8;&#x7F72;">&#x670D;&#x52A1;&#x5668;&#x9AD8;&#x53EF;&#x7528;&#x90E8;&#x7F72;</h3>
+<h3 id="&#x670D;&#x52A1;&#x5668;&#x9AD8;&#x53EF;&#x7528;&#x90E8;&#x7F72;">&#x670D;&#x52A1;&#x5668;&#x9AD8;&#x53EF;&#x7528;&#x90E8;&#x7F72;</h3>
 <p>&#x5C06;&#x670D;&#x52A1;&#x5728;&#x591A;&#x4E2A;&#x673A;&#x5668;&#x8FDB;&#x884C;&#x90E8;&#x7F72;&#x4F7F;&#x7528;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x5668;&#x5C06;&#x6D41;&#x91CF;&#x5206;&#x53D1;&#x5230;&#x591A;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF0C;&#x4EE5;&#x5B9E;&#x73B0;&#x8BF7;&#x6C42;&#x7684;&#x5E73;&#x8861;&#x548C;&#x5206;&#x62C5;&#x3002;&#x5E38;&#x89C1;&#x7684;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x7B97;&#x6CD5;&#x5305;&#x62EC;&#x8F6E;&#x8BE2;&#x3001;&#x6700;&#x5C11;&#x8FDE;&#x63A5;&#x548C;&#x54C8;&#x5E0C;&#x7B97;&#x6CD5;&#x7B49;&#x3002;&#x5728;&#x7CFB;&#x7EDF;&#x4E2D;&#x4F7F;&#x7528;&#x591A;&#x4E2A;&#x76F8;&#x540C;&#x914D;&#x7F6E;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728;&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x751F;&#x6545;&#x969C;&#x65F6;&#xFF0C;&#x5176;&#x4ED6;&#x670D;&#x52A1;&#x5668;&#x53EF;&#x4EE5;&#x63A5;&#x7BA1;&#x5176;&#x5DE5;&#x4F5C;&#x5E76;&#x4FDD;&#x6301;&#x7CFB;&#x7EDF;&#x7684;&#x8FDE;&#x7EED;&#x6027;&#x3002;&#x5E38;&#x89C1;&#x7684;&#x5197;&#x4F59;&#x5907;&#x4EFD;&#x6A21;&#x5F0F;&#x5305;&#x62EC;&#x4E3B;&#x5907;&#x6A21;&#x5F0F;&#x3001;&#x6D3B;&#x52A8;-&#x6D3B;&#x52A8;&#x6A21;&#x5F0F;&#x548C;N+1&#x6A21;&#x5F0F;&#x7B49;&#x3002;</p>
-<h3 id="docker&#x5BB9;&#x5668;&#x5FEB;&#x901F;&#x90E8;&#x7F72;">docker&#x5BB9;&#x5668;&#x5FEB;&#x901F;&#x90E8;&#x7F72;</h3>
+<h3 id="&#x7A0B;&#x5E8F;&#x5305;&#x90E8;&#x7F72;">&#x7A0B;&#x5E8F;&#x5305;&#x90E8;&#x7F72;</h3>
+<h4 id="&#x524D;&#x7AEF;&#x670D;&#x52A1;&#x542F;&#x52A8;">&#x524D;&#x7AEF;&#x670D;&#x52A1;&#x542F;&#x52A8;</h4>
+<pre><code>&#x6E90;&#x7801;&#x7F16;&#x8BD1;&#x540E;&#x751F;&#x6210;&#x201D;dist&#x201D;&#x4ECB;&#x8D28;&#x5305;&#x3002;&#x5C06; dist &#x4ECB;&#x8D28;&#x5305;&#x53D1;&#x9001;&#x5230;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x3002;&#x8DEF;&#x5F84;&#x4E3A; nginx &#x914D;&#x7F6E;&#x7684;&#x4ECB;&#x8D28;&#x5305;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#x4E0B;
+</code></pre><h4 id="&#x91CD;&#x65B0;&#x542F;&#x52A8;-nginx-&#x670D;&#x52A1;">&#x91CD;&#x65B0;&#x542F;&#x52A8; nginx &#x670D;&#x52A1;</h4>
+<pre><code>/usr/local/nginx/sbin/nginx -s reload -t
+</code></pre><h4 id="&#x540E;&#x7AEF;&#x670D;&#x52A1;&#x542F;&#x52A8;">&#x540E;&#x7AEF;&#x670D;&#x52A1;&#x542F;&#x52A8;</h4>
+<pre><code>&#x6E90;&#x7801;&#x7F16;&#x8BD1;&#x540E;&#x751F;&#x6210;&#x201D;filing-system-0.0.1-SNAPSHOT.jar&#x201D;&#x4ECB;&#x8D28;&#x5305;&#x3002;&#x5C06;&#x8BE5;&#x4ECB;&#x8D28;&#x5305;&#x4E0A;&#x4F20;&#x81F3;&#x670D;&#x52A1;&#x5668;&#x3002;&#x7F16;&#x8F91;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;application.yml
+</code></pre><h4 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;</h4>
+<pre><code>server:
+ port: 8000
+spring:
+ jackson:
+ time-zone: GMT+8
+ serialization:
+ fail-on-empty-beans: false
+ datasource:
+ druid:
+ type: com.alibaba.druid.pool.DruidDataSource
+ driverClassName: com.mysql.jdbc.Driver
+ url: jdbc:mysql://IP:3306/filing?characterEncoding=utf-8&amp;useSSL=false
+ username: root
+ password: 123456
+ initial-size: 5
+ min-idle: 40
+ max-active: 100
+ max-wait: 5000
+ time-between-eviction-runs-millis: 90000
+ min-evictable-idle-time-millis: 1800000
+ test-while-idle: true
+ test-on-borrow: false
+ test-on-return: false
+ validation-query: SELECT 1
+ filters: stat
+ stat-view-servlet:
+ url-pattern: /druid/*
+ reset-enable: false
+ enabled: true
+ allow: 127.0.0.1
+ web-stat-filter:
+ url-pattern: /*
+ exclusions: &quot;*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*&quot;
+ redis:
+ host: 127.0.0.1
+ port: 6379
+ timeout: 5000
+ password: 123456
+ elasticjob:
+ zookeeper:
+ server-lists: IP:2181
+ namespace: epanasiashop-job-filing
+ digest: zookeeper:Zkpp.x123
+#jwt
+jwt:
+ header: Authorization
+ secret: filingSecret!@#*
+ expiration: 21600000
+ online: online-token
+ codeKey: code-key
+generator:
+ enabled: false
+sso:
+ clientId: TKDAP
+ clientSecret: B7DuoJeqOGHvVWkPo7Nt
+ # &#x56DE;&#x8C03;&#x5730;&#x5740;
+ redirectUri: http://:8080/login
+ # &#x83B7;&#x53D6;&#x9A8C;&#x8BC1;&#x7801;
+ authUri:
+ # &#x767B;&#x5F55;&#x7B2C;&#x4E09;&#x65B9;&#x8BA4;&#x8BC1;&#x5730;&#x5740;
+ loginUri:
+admin:
+email: test@163.com #&#x8BE5;&#x90AE;&#x7BB1;&#x4E3A;&#x5F52;&#x6863;&#x5E73;&#x53F0;&#x7BA1;&#x7406;&#x5458;&#x90AE;&#x7BB1;&#x3002;
+allow-origin: http://127.0.0.1
+loginCode:
+ expiration: 2
+mybatis-plus:
+ mapper-locations: classpath:mapper/*.xml
+ typeAliasesPackage: com.whaleal.filing.entity,com.whaleal.filing.model
+ type-enums-package: com.whaleal.filing.enums
+</code></pre><h4 id="&#x4FEE;&#x6539;&#x5B8C;&#x76F8;&#x5E94;&#x8BBE;&#x7F6E;&#x540E;-java-&#x4ECB;&#x8D28;&#x5305;&#x6307;&#x5B9A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x540E;&#x53F0;&#x542F;&#x52A8;">&#x4FEE;&#x6539;&#x5B8C;&#x76F8;&#x5E94;&#x8BBE;&#x7F6E;&#x540E; Java &#x4ECB;&#x8D28;&#x5305;&#x6307;&#x5B9A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x540E;&#x53F0;&#x542F;&#x52A8;</h4>
+<p>&#x542F;&#x52A8;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>nohup java -jar -Xms2048M -Xmx20000M -XX:PermSize=768M -XX:MaxPermSize=1536M -server -jar 
+filing-system-0.0.1-SNAPSHOT.jar --spring.config.location=application.yml --jasypt.encryptor.password=SfXlqZmK4P257 &amp;
+</code></pre><h4 id="&#x67E5;&#x770B;&#x65E5;&#x5FD7;&#x786E;&#x8BA4;&#x542F;&#x52A8;&#x6210;&#x529F;">&#x67E5;&#x770B;&#x65E5;&#x5FD7;&#x786E;&#x8BA4;&#x542F;&#x52A8;&#x6210;&#x529F;</h4>
+<pre><code>tail -f nohup.out
+</code></pre><h3 id="docker&#x5BB9;&#x5668;&#x5FEB;&#x901F;&#x90E8;&#x7F72;">docker&#x5BB9;&#x5668;&#x5FEB;&#x901F;&#x90E8;&#x7F72;</h3>
 <pre><code>&#x8FDB;&#x5165;docker-compose.yml&#x540C;&#x7EA7;&#x76EE;&#x5F55;&#xFF0C;&#x4F7F;&#x7528; `docker-compose up -d`&#x542F;&#x52A8;&#x3002;
 
 docker&#x670D;&#x52A1;&#x542F;&#x52A8;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;`docker logs -f root_whaleal-data_1`&#x547D;&#x4EE4;&#x67E5;&#x770B;whaleal-data&#x670D;&#x52A1;&#x8FD0;&#x884C;&#x65E5;&#x5FD7;&#x3002;
@@ -999,7 +1159,7 @@ pwd:&quot;123456&quot;
 
             
                 
-                <a href="../" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Whaleal-data">
+                <a href="Zookeeper安装部署.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Zookeeper安装部署">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -1011,7 +1171,7 @@ pwd:&quot;123456&quot;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Whaleal-data安装部署","level":"1.1.1","depth":2,"next":{"title":"Whaleal-data使用手册","level":"1.1.2","depth":2,"ref":"","articles":[{"title":"登录页面","level":"1.1.2.1","depth":3,"ref":"","articles":[{"title":"用户首次登录","level":"1.1.2.1.1","depth":4,"path":"使用手册/登录页面/用户首次登录.md","ref":"./使用手册/登录页面/用户首次登录.md","articles":[]},{"title":"用户注册","level":"1.1.2.1.2","depth":4,"path":"使用手册/登录页面/用户注册.md","ref":"./使用手册/登录页面/用户注册.md","articles":[]}]},{"title":"首页展示","level":"1.1.2.2","depth":3,"path":"使用手册/首页展示/首页展示.md","ref":"./使用手册/首页展示/首页展示.md","articles":[]},{"title":"配置管理","level":"1.1.2.3","depth":3,"ref":"","articles":[{"title":"数据源管理","level":"1.1.2.3.1","depth":4,"path":"使用手册/配置管理/数据源管理.md","ref":"./使用手册/配置管理/数据源管理.md","articles":[]},{"title":"目标源管理","level":"1.1.2.3.2","depth":4,"path":"使用手册/配置管理/目标源管理.md","ref":"./使用手册/配置管理/目标源管理.md","articles":[]},{"title":"表作业配置","level":"1.1.2.3.3","depth":4,"path":"使用手册/配置管理/表作业配置.md","ref":"./使用手册/配置管理/表作业配置.md","articles":[]},{"title":"任务配置","level":"1.1.2.3.4","depth":4,"path":"使用手册/配置管理/任务配置.md","ref":"./使用手册/配置管理/任务配置.md","articles":[]}]},{"title":"任务管理","level":"1.1.2.4","depth":3,"ref":"","articles":[{"title":"任务调度","level":"1.1.2.4.1","depth":4,"path":"使用手册/任务管理/任务调度.md","ref":"./使用手册/任务管理/任务调度.md","articles":[]},{"title":"任务监控(温)","level":"1.1.2.4.2","depth":4,"path":"使用手册/任务管理/温任务监控.md","ref":"./使用手册/任务管理/温任务监控.md","articles":[]},{"title":"任务监控(冷)","level":"1.1.2.4.3","depth":4,"path":"使用手册/任务管理/冷任务监控.md","ref":"./使用手册/任务管理/冷任务监控.md","articles":[]},{"title":"任务监控(S3)","level":"1.1.2.4.4","depth":4,"path":"使用手册/任务管理/S3任务监控.md","ref":"./使用手册/任务管理/S3任务监控.md","articles":[]}]},{"title":"归档管理","level":"1.1.2.5","depth":3,"ref":"","articles":[{"title":"日志查询(冷)","level":"1.1.2.5.1","depth":4,"path":"使用手册/归档管理/冷任务日志查询.md","ref":"./使用手册/归档管理/冷任务日志查询.md","articles":[]},{"title":"文件巡检管理","level":"1.1.2.5.2","depth":4,"path":"使用手册/归档管理/文件巡检管理.md","ref":"./使用手册/归档管理/文件巡检管理.md","articles":[]},{"title":"文件全文检索","level":"1.1.2.5.3","depth":4,"path":"使用手册/归档管理/文件全文检索.md","ref":"./使用手册/归档管理/文件全文检索.md","articles":[]}]},{"title":"系统管理","level":"1.1.2.6","depth":3,"ref":"","articles":[{"title":"用户管理","level":"1.1.2.6.1","depth":4,"path":"使用手册/系统管理/用户管理.md","ref":"./使用手册/系统管理/用户管理.md","articles":[]},{"title":"角色管理","level":"1.1.2.6.2","depth":4,"path":"使用手册/系统管理/角色管理.md","ref":"./使用手册/系统管理/角色管理.md","articles":[]},{"title":"菜单管理","level":"1.1.2.6.3","depth":4,"path":"使用手册/系统管理/菜单管理.md","ref":"./使用手册/系统管理/菜单管理.md","articles":[]},{"title":"系统设置","level":"1.1.2.6.4","depth":4,"path":"使用手册/系统管理/系统设置.md","ref":"./使用手册/系统管理/系统设置.md","articles":[]},{"title":"操作日志","level":"1.1.2.6.5","depth":4,"path":"使用手册/系统管理/操作日志.md","ref":"./使用手册/系统管理/操作日志.md","articles":[]},{"title":"错误日志","level":"1.1.2.6.6","depth":4,"path":"使用手册/系统管理/错误日志.md","ref":"./使用手册/系统管理/错误日志.md","articles":[]}]},{"title":"统计报表","level":"1.1.2.7","depth":3,"ref":"","articles":[{"title":"表作业执行统计","level":"1.1.2.7.1","depth":4,"path":"使用手册/统计报表/表作业执行统计.md","ref":"./使用手册/统计报表/表作业执行统计.md","articles":[]},{"title":"异常作业执行统计","level":"1.1.2.7.2","depth":4,"path":"使用手册/统计报表/异常作业执行统计.md","ref":"./使用手册/统计报表/异常作业执行统计.md","articles":[]},{"title":"系统接入统计","level":"1.1.2.7.3","depth":4,"path":"使用手册/统计报表/系统接入统计.md","ref":"./使用手册/统计报表/系统接入统计.md","articles":[]},{"title":"回滚记录统计","level":"1.1.2.7.4","depth":4,"path":"使用手册/统计报表/回滚记录统计.md","ref":"./使用手册/统计报表/回滚记录统计.md","articles":[]},{"title":"作业明细","level":"1.1.2.7.5","depth":4,"path":"使用手册/统计报表/作业明细.md","ref":"./使用手册/统计报表/作业明细.md","articles":[]},{"title":"数据历史流向","level":"1.1.2.7.6","depth":4,"path":"使用手册/统计报表/数据历史流向.md","ref":"./使用手册/统计报表/数据历史流向.md","articles":[]}]}]},"previous":{"title":"Whaleal-data","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[{"title":"Whaleal-data安装部署","level":"1.1.1","depth":2,"path":"安装部署/Whaleal-data安装部署.md","ref":"./安装部署/Whaleal-data安装部署.md","articles":[]},{"title":"Whaleal-data使用手册","level":"1.1.2","depth":2,"ref":"","articles":[{"title":"登录页面","level":"1.1.2.1","depth":3,"ref":"","articles":[{"title":"用户首次登录","level":"1.1.2.1.1","depth":4,"path":"使用手册/登录页面/用户首次登录.md","ref":"./使用手册/登录页面/用户首次登录.md","articles":[]},{"title":"用户注册","level":"1.1.2.1.2","depth":4,"path":"使用手册/登录页面/用户注册.md","ref":"./使用手册/登录页面/用户注册.md","articles":[]}]},{"title":"首页展示","level":"1.1.2.2","depth":3,"path":"使用手册/首页展示/首页展示.md","ref":"./使用手册/首页展示/首页展示.md","articles":[]},{"title":"配置管理","level":"1.1.2.3","depth":3,"ref":"","articles":[{"title":"数据源管理","level":"1.1.2.3.1","depth":4,"path":"使用手册/配置管理/数据源管理.md","ref":"./使用手册/配置管理/数据源管理.md","articles":[]},{"title":"目标源管理","level":"1.1.2.3.2","depth":4,"path":"使用手册/配置管理/目标源管理.md","ref":"./使用手册/配置管理/目标源管理.md","articles":[]},{"title":"表作业配置","level":"1.1.2.3.3","depth":4,"path":"使用手册/配置管理/表作业配置.md","ref":"./使用手册/配置管理/表作业配置.md","articles":[]},{"title":"任务配置","level":"1.1.2.3.4","depth":4,"path":"使用手册/配置管理/任务配置.md","ref":"./使用手册/配置管理/任务配置.md","articles":[]}]},{"title":"任务管理","level":"1.1.2.4","depth":3,"ref":"","articles":[{"title":"任务调度","level":"1.1.2.4.1","depth":4,"path":"使用手册/任务管理/任务调度.md","ref":"./使用手册/任务管理/任务调度.md","articles":[]},{"title":"任务监控(温)","level":"1.1.2.4.2","depth":4,"path":"使用手册/任务管理/温任务监控.md","ref":"./使用手册/任务管理/温任务监控.md","articles":[]},{"title":"任务监控(冷)","level":"1.1.2.4.3","depth":4,"path":"使用手册/任务管理/冷任务监控.md","ref":"./使用手册/任务管理/冷任务监控.md","articles":[]},{"title":"任务监控(S3)","level":"1.1.2.4.4","depth":4,"path":"使用手册/任务管理/S3任务监控.md","ref":"./使用手册/任务管理/S3任务监控.md","articles":[]}]},{"title":"归档管理","level":"1.1.2.5","depth":3,"ref":"","articles":[{"title":"日志查询(冷)","level":"1.1.2.5.1","depth":4,"path":"使用手册/归档管理/冷任务日志查询.md","ref":"./使用手册/归档管理/冷任务日志查询.md","articles":[]},{"title":"文件巡检管理","level":"1.1.2.5.2","depth":4,"path":"使用手册/归档管理/文件巡检管理.md","ref":"./使用手册/归档管理/文件巡检管理.md","articles":[]},{"title":"文件全文检索","level":"1.1.2.5.3","depth":4,"path":"使用手册/归档管理/文件全文检索.md","ref":"./使用手册/归档管理/文件全文检索.md","articles":[]}]},{"title":"系统管理","level":"1.1.2.6","depth":3,"ref":"","articles":[{"title":"用户管理","level":"1.1.2.6.1","depth":4,"path":"使用手册/系统管理/用户管理.md","ref":"./使用手册/系统管理/用户管理.md","articles":[]},{"title":"角色管理","level":"1.1.2.6.2","depth":4,"path":"使用手册/系统管理/角色管理.md","ref":"./使用手册/系统管理/角色管理.md","articles":[]},{"title":"菜单管理","level":"1.1.2.6.3","depth":4,"path":"使用手册/系统管理/菜单管理.md","ref":"./使用手册/系统管理/菜单管理.md","articles":[]},{"title":"系统设置","level":"1.1.2.6.4","depth":4,"path":"使用手册/系统管理/系统设置.md","ref":"./使用手册/系统管理/系统设置.md","articles":[]},{"title":"操作日志","level":"1.1.2.6.5","depth":4,"path":"使用手册/系统管理/操作日志.md","ref":"./使用手册/系统管理/操作日志.md","articles":[]},{"title":"错误日志","level":"1.1.2.6.6","depth":4,"path":"使用手册/系统管理/错误日志.md","ref":"./使用手册/系统管理/错误日志.md","articles":[]}]},{"title":"统计报表","level":"1.1.2.7","depth":3,"ref":"","articles":[{"title":"表作业执行统计","level":"1.1.2.7.1","depth":4,"path":"使用手册/统计报表/表作业执行统计.md","ref":"./使用手册/统计报表/表作业执行统计.md","articles":[]},{"title":"异常作业执行统计","level":"1.1.2.7.2","depth":4,"path":"使用手册/统计报表/异常作业执行统计.md","ref":"./使用手册/统计报表/异常作业执行统计.md","articles":[]},{"title":"系统接入统计","level":"1.1.2.7.3","depth":4,"path":"使用手册/统计报表/系统接入统计.md","ref":"./使用手册/统计报表/系统接入统计.md","articles":[]},{"title":"回滚记录统计","level":"1.1.2.7.4","depth":4,"path":"使用手册/统计报表/回滚记录统计.md","ref":"./使用手册/统计报表/回滚记录统计.md","articles":[]},{"title":"作业明细","level":"1.1.2.7.5","depth":4,"path":"使用手册/统计报表/作业明细.md","ref":"./使用手册/统计报表/作业明细.md","articles":[]},{"title":"数据历史流向","level":"1.1.2.7.6","depth":4,"path":"使用手册/统计报表/数据历史流向.md","ref":"./使用手册/统计报表/数据历史流向.md","articles":[]}]}]},{"title":"use cases","level":"1.1.3","depth":2,"ref":"","articles":[{"title":"用户注册","level":"1.1.3.1","depth":3,"path":"use cases/用户注册.md","ref":"./use cases/用户注册.md","articles":[]},{"title":"用户登录","level":"1.1.3.2","depth":3,"path":"use cases/用户登录.md","ref":"./use cases/用户登录.md","articles":[]},{"title":"添加数据源","level":"1.1.3.3","depth":3,"path":"use cases/添加数据源.md","ref":"./use cases/添加数据源.md","articles":[]},{"title":"添加目标源","level":"1.1.3.4","depth":3,"path":"use cases/添加目标源.md","ref":"./use cases/添加目标源.md","articles":[]},{"title":"添加温数据全量作业","level":"1.1.3.5","depth":3,"path":"use cases/添加温数据全量作业.md","ref":"./use cases/添加温数据全量作业.md","articles":[]},{"title":"添加冷数据全量作业","level":"1.1.3.6","depth":3,"path":"use cases/添加冷数据全量作业.md","ref":"./use cases/添加冷数据全量作业.md","articles":[]},{"title":"添加S3全量作业","level":"1.1.3.7","depth":3,"path":"use cases/添加S3全量作业.md","ref":"./use cases/添加S3全量作业.md","articles":[]},{"title":"添加温数据增量作业","level":"1.1.3.8","depth":3,"path":"use cases/添加温数据增量作业.md","ref":"./use cases/添加温数据增量作业.md","articles":[]},{"title":"添加冷数据增量作业","level":"1.1.3.9","depth":3,"path":"use cases/添加冷数据增量作业.md","ref":"./use cases/添加冷数据增量作业.md","articles":[]},{"title":"添加S3增量作业","level":"1.1.3.10","depth":3,"path":"use cases/添加S3增量作业.md","ref":"./use cases/添加S3增量作业.md","articles":[]},{"title":"创建单次任务","level":"1.1.3.11","depth":3,"path":"use cases/创建单次任务.md","ref":"./use cases/创建单次任务.md","articles":[]},{"title":"创建手工任务","level":"1.1.3.12","depth":3,"path":"use cases/创建手工任务.md","ref":"./use cases/创建手工任务.md","articles":[]},{"title":"创建循环任务","level":"1.1.3.13","depth":3,"path":"use cases/创建循环任务.md","ref":"./use cases/创建循环任务.md","articles":[]},{"title":"任务执行监控","level":"1.1.3.14","depth":3,"path":"use cases/任务执行监控.md","ref":"./use cases/任务执行监控.md","articles":[]},{"title":"异常任务回写","level":"1.1.3.15","depth":3,"path":"use cases/异常任务回写.md","ref":"./use cases/异常任务回写.md","articles":[]},{"title":"异常任务重新执行","level":"1.1.3.16","depth":3,"path":"use cases/异常任务重新执行.md","ref":"./use cases/异常任务重新执行.md","articles":[]},{"title":"系统删除源端数据","level":"1.1.3.17","depth":3,"path":"use cases/系统删除源端数据.md","ref":"./use cases/系统删除源端数据.md","articles":[]},{"title":"手动删除源端数据","level":"1.1.3.18","depth":3,"path":"use cases/手动删除源端数据.md","ref":"./use cases/手动删除源端数据.md","articles":[]},{"title":"冷数据回写","level":"1.1.3.19","depth":3,"path":"use cases/冷数据回写.md","ref":"./use cases/冷数据回写.md","articles":[]},{"title":"冷数据全文检索","level":"1.1.3.20","depth":3,"path":"use cases/冷数据全文检索.md","ref":"./use cases/冷数据全文检索.md","articles":[]},{"title":"SMTP配置","level":"1.1.3.21","depth":3,"path":"use cases/SMTP配置.md","ref":"./use cases/SMTP配置.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Whaleal data","gitbook":"*"},"file":{"path":"安装部署/Whaleal-data安装部署.md","mtime":"2023-06-25T06:59:11.651Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-06-25T09:36:20.427Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"data安装部署","level":"1.1.1.7","depth":3,"next":{"title":"Whaleal-data使用手册","level":"1.1.2","depth":2,"ref":"","articles":[{"title":"登录页面","level":"1.1.2.1","depth":3,"ref":"","articles":[{"title":"用户首次登录","level":"1.1.2.1.1","depth":4,"path":"使用手册/登录页面/用户首次登录.md","ref":"./使用手册/登录页面/用户首次登录.md","articles":[]},{"title":"用户注册","level":"1.1.2.1.2","depth":4,"path":"使用手册/登录页面/用户注册.md","ref":"./使用手册/登录页面/用户注册.md","articles":[]}]},{"title":"首页展示","level":"1.1.2.2","depth":3,"path":"使用手册/首页展示/首页展示.md","ref":"./使用手册/首页展示/首页展示.md","articles":[]},{"title":"配置管理","level":"1.1.2.3","depth":3,"ref":"","articles":[{"title":"数据源管理","level":"1.1.2.3.1","depth":4,"path":"使用手册/配置管理/数据源管理.md","ref":"./使用手册/配置管理/数据源管理.md","articles":[]},{"title":"目标源管理","level":"1.1.2.3.2","depth":4,"path":"使用手册/配置管理/目标源管理.md","ref":"./使用手册/配置管理/目标源管理.md","articles":[]},{"title":"表作业配置","level":"1.1.2.3.3","depth":4,"path":"使用手册/配置管理/表作业配置.md","ref":"./使用手册/配置管理/表作业配置.md","articles":[]},{"title":"任务配置","level":"1.1.2.3.4","depth":4,"path":"使用手册/配置管理/任务配置.md","ref":"./使用手册/配置管理/任务配置.md","articles":[]}]},{"title":"任务管理","level":"1.1.2.4","depth":3,"ref":"","articles":[{"title":"任务调度","level":"1.1.2.4.1","depth":4,"path":"使用手册/任务管理/任务调度.md","ref":"./使用手册/任务管理/任务调度.md","articles":[]},{"title":"任务监控(温)","level":"1.1.2.4.2","depth":4,"path":"使用手册/任务管理/温任务监控.md","ref":"./使用手册/任务管理/温任务监控.md","articles":[]},{"title":"任务监控(冷)","level":"1.1.2.4.3","depth":4,"path":"使用手册/任务管理/冷任务监控.md","ref":"./使用手册/任务管理/冷任务监控.md","articles":[]},{"title":"任务监控(S3)","level":"1.1.2.4.4","depth":4,"path":"使用手册/任务管理/S3任务监控.md","ref":"./使用手册/任务管理/S3任务监控.md","articles":[]}]},{"title":"归档管理","level":"1.1.2.5","depth":3,"ref":"","articles":[{"title":"日志查询(冷)","level":"1.1.2.5.1","depth":4,"path":"使用手册/归档管理/冷任务日志查询.md","ref":"./使用手册/归档管理/冷任务日志查询.md","articles":[]},{"title":"文件巡检管理","level":"1.1.2.5.2","depth":4,"path":"使用手册/归档管理/文件巡检管理.md","ref":"./使用手册/归档管理/文件巡检管理.md","articles":[]},{"title":"文件全文检索","level":"1.1.2.5.3","depth":4,"path":"使用手册/归档管理/文件全文检索.md","ref":"./使用手册/归档管理/文件全文检索.md","articles":[]}]},{"title":"系统管理","level":"1.1.2.6","depth":3,"ref":"","articles":[{"title":"用户管理","level":"1.1.2.6.1","depth":4,"path":"使用手册/系统管理/用户管理.md","ref":"./使用手册/系统管理/用户管理.md","articles":[]},{"title":"角色管理","level":"1.1.2.6.2","depth":4,"path":"使用手册/系统管理/角色管理.md","ref":"./使用手册/系统管理/角色管理.md","articles":[]},{"title":"菜单管理","level":"1.1.2.6.3","depth":4,"path":"使用手册/系统管理/菜单管理.md","ref":"./使用手册/系统管理/菜单管理.md","articles":[]},{"title":"系统设置","level":"1.1.2.6.4","depth":4,"path":"使用手册/系统管理/系统设置.md","ref":"./使用手册/系统管理/系统设置.md","articles":[]},{"title":"操作日志","level":"1.1.2.6.5","depth":4,"path":"使用手册/系统管理/操作日志.md","ref":"./使用手册/系统管理/操作日志.md","articles":[]},{"title":"错误日志","level":"1.1.2.6.6","depth":4,"path":"使用手册/系统管理/错误日志.md","ref":"./使用手册/系统管理/错误日志.md","articles":[]}]},{"title":"统计报表","level":"1.1.2.7","depth":3,"ref":"","articles":[{"title":"表作业执行统计","level":"1.1.2.7.1","depth":4,"path":"使用手册/统计报表/表作业执行统计.md","ref":"./使用手册/统计报表/表作业执行统计.md","articles":[]},{"title":"异常作业执行统计","level":"1.1.2.7.2","depth":4,"path":"使用手册/统计报表/异常作业执行统计.md","ref":"./使用手册/统计报表/异常作业执行统计.md","articles":[]},{"title":"系统接入统计","level":"1.1.2.7.3","depth":4,"path":"使用手册/统计报表/系统接入统计.md","ref":"./使用手册/统计报表/系统接入统计.md","articles":[]},{"title":"回滚记录统计","level":"1.1.2.7.4","depth":4,"path":"使用手册/统计报表/回滚记录统计.md","ref":"./使用手册/统计报表/回滚记录统计.md","articles":[]},{"title":"作业明细","level":"1.1.2.7.5","depth":4,"path":"使用手册/统计报表/作业明细.md","ref":"./使用手册/统计报表/作业明细.md","articles":[]},{"title":"数据历史流向","level":"1.1.2.7.6","depth":4,"path":"使用手册/统计报表/数据历史流向.md","ref":"./使用手册/统计报表/数据历史流向.md","articles":[]}]}]},"previous":{"title":"Zookeeper安装部署","level":"1.1.1.6","depth":3,"path":"安装部署/Zookeeper安装部署.md","ref":"./安装部署/Zookeeper安装部署.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Whaleal data","gitbook":"*"},"file":{"path":"安装部署/Whaleal-data安装部署.md","mtime":"2023-06-26T07:29:36.635Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-06-26T09:37:33.426Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
