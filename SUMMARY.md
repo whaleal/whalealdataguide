@@ -64,5 +64,8 @@
     * [冷数据回写](./use cases/冷数据回写.md)
     * [冷数据全文检索](./use cases/冷数据全文检索.md)
     * [SMTP配置](./use cases/SMTP配置.md)
+    * [温作业Demo](./use cases/温作业Demo.md)
+    * [冷作业Demo](./use cases/冷作业Demo.md)
+    * [S3作业Demo](./use cases/S3作业Demo.md)
       
       

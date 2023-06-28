@@ -7,6 +7,8 @@
 
 ### 平台架构图
 
-![img](https://lh6.googleusercontent.com/0ooD1MNXrxv34dgetv4ey2gmW2tBBPDB4Lnbw0r5vd2PTvOXFpOCWWPLhFtBj1wzxBZv8s0vIdsJfe2VODrFHlCyAO74LQdT9trRp5xuzNaEuWjzalIVxbXZkMbtJl-6Gsqi2YMMUgFaTaXAvJnoKPs)
+![平台架构图.png](images/平台架构图.png)
 
+### 	软件结构图
 
+![软件结构图.png](images/软件结构图.png)

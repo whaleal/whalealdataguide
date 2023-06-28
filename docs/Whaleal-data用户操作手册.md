@@ -10,7 +10,11 @@
 
 ### 	架构图
 
-![img](https://lh6.googleusercontent.com/0ooD1MNXrxv34dgetv4ey2gmW2tBBPDB4Lnbw0r5vd2PTvOXFpOCWWPLhFtBj1wzxBZv8s0vIdsJfe2VODrFHlCyAO74LQdT9trRp5xuzNaEuWjzalIVxbXZkMbtJl-6Gsqi2YMMUgFaTaXAvJnoKPs)
+![平台架构图.png](images/平台架构图.png)
+
+### 	软件结构图
+
+![软件结构图.png](images/软件结构图.png)
 
 ###     安装要求
 
@@ -518,7 +522,7 @@ Tips:
 
 ##### 				创建巡检任务
 
-​	点击蓝色按钮创建巡检任务弹出以下表格，填写后点击去人即可生成对应温数据目标源的巡检数据，完成后点击查看详情即可查看对应巡检内容如第二张图所示。
+​	点击蓝色按钮创建巡检任务弹出以下表格，填写后点击确认即可生成对应温数据目标源的巡检数据，完成后点击查看详情即可查看对应巡检内容如第二张图所示。
 
 ![image-20230620170622316](./images/image-20230620170622316.png)
 
